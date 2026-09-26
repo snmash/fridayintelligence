@@ -93,7 +93,8 @@ main { max-width: 64rem; margin: 0 auto; padding: 0 2.5rem; }
 }
 .lines { list-style: none; margin: 0; padding: 0; max-width: 40rem; }
 .lines li {
-  font-size: 1.3rem; font-weight: 400;
+  font-family: 'Newsreader', Georgia, serif;
+  font-size: 1.35rem; font-weight: 400;
   line-height: 1.55;
   margin: 0 0 1.4rem;
   color: var(--charcoal);
@@ -102,14 +103,18 @@ main { max-width: 64rem; margin: 0 auto; padding: 0 2.5rem; }
 
 .logos {
   display: flex; flex-wrap: wrap;
-  gap: 0.8rem 2.8rem;
+  gap: 1.2rem 2.6rem;
+  align-items: center;
   margin: 0;
 }
-.logos span {
-  font-size: 1.05rem; font-weight: 500;
-  letter-spacing: 0.14em; text-transform: uppercase;
-  color: var(--charcoal);
+.logos img {
+  height: 1.5rem; width: auto;
+  filter: grayscale(1) brightness(0.45); opacity: 0.9;
 }
+.logos img[alt="Anthropic"] { height: 0.95rem; }
+.logos img[alt="AWS"] { height: 1.6rem; }
+.logos img[alt="Amazon"] { height: 1.55rem; }
+.logos img[alt="Microsoft"] { height: 1.55rem; }
 
 .site-footer {
   margin-top: 5rem;
