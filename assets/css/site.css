@@ -125,6 +125,12 @@ main { max-width: 64rem; margin: 0 auto; padding: 0 2.5rem; }
 .logos img[alt="AWS"] { height: 1.6rem; }
 .logos img[alt="Amazon"] { height: 1.55rem; }
 .logos img[alt="Microsoft"] { height: 1.55rem; }
+.logo-caption {
+  margin: 1.1rem 0 0;
+  font-size: 0.78rem; font-weight: 500;
+  letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--sand);
+}
 
 .site-footer {
   margin-top: 5rem;
