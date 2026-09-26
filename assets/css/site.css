@@ -100,6 +100,8 @@ main { max-width: 64rem; margin: 0 auto; padding: 0 2.5rem; }
   color: var(--charcoal);
 }
 .lines li::before { content: "\2026\00a0 "; color: var(--sand); }
+.lines li a { color: inherit; text-decoration: none; border-bottom: 1px solid transparent; transition: border-color .2s; }
+.lines li a:hover { border-bottom-color: var(--sand); }
 
 .logos {
   display: flex; flex-wrap: wrap;
