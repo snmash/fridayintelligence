@@ -171,6 +171,6 @@ main { max-width: 64rem; margin: 0 auto; padding: 0 2.5rem; }
   color:var(--forest); text-decoration:none;
   font-family:'Newsreader',Georgia,serif; font-size:1.15rem; line-height:1.5; display:block;
 }
-.thinkgrid li a::after { content:"›"; display:block; margin-top:0.9rem; color:var(--sand); font-family:var(--sans); }
+.thinkgrid li a::after { content:" ›"; color:var(--sand); font-family:var(--sans); }
 .thinkgrid li a:hover { text-decoration:underline; text-underline-offset:4px; text-decoration-color:var(--sand); }
 @media (max-width:640px){ .cards,.thinkgrid{ grid-template-columns:1fr; } }
