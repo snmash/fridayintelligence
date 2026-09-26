@@ -72,6 +72,14 @@ a { color: inherit; }
   max-width: 24ch;
   color: #fff;
 }
+.hero-tagline {
+  font-family: 'Newsreader', Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(1.05rem, 1.8vw, 1.4rem);
+  line-height: 1.5;
+  margin: -1.2rem 0 2.2rem;
+  color: var(--sand);
+}
 .hero-cta { margin: 0; }
 .arrow-link {
   font-size: 0.85rem; font-weight: 500;
