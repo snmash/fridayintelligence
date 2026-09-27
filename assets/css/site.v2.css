@@ -87,6 +87,8 @@ a { color: inherit; }
   color: var(--sand);
   text-decoration: none;
 }
+
+.lines.plain li::before { content: none; }
 .arrow-link::after { content: " ›"; }
 .arrow-link:hover { color: #fff; }
 
