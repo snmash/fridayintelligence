@@ -94,6 +94,8 @@ a { color: inherit; }
 
 /* Sections */
 main { max-width: 64rem; margin: 0 auto; padding: 0 2.5rem; }
+main > p:first-child { max-width: 48rem; margin: 1.5rem auto 0; text-align: center; }
+main > .block:first-of-type { padding-top: 2rem; }
 .block { padding: 4.5rem 0 1rem; }
 .block h2 {
   font-size: 0.8rem; font-weight: 600;
@@ -150,6 +152,8 @@ main { max-width: 64rem; margin: 0 auto; padding: 0 2.5rem; }
   .hero-body { padding: 0 1.4rem 10vh; }
   .hero h1 { letter-spacing: 0.16em; }
   main { padding: 0 1.4rem; }
+  main > p:first-child { margin-top: 1.25rem; }
+  main > .block:first-of-type { padding-top: 1.5rem; }
 }
 
 /* Treatment A - cards (Steven's pick 9/25; Think with us kept light to match) */
