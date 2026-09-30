@@ -3,7 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://www.commerce.wa.gov; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://www.commerce.wa.gov https://*.google-analytics.com https://www.googletagmanager.com; script-src https://www.googletagmanager.com 'sha256-Y1R/5T9aXRZ3KK/ou1F8+eBunyAfJENvTmDaSAnxFBI='; connect-src https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BL3PCDGRFW"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-BL3PCDGRFW', {allow_google_signals: false, allow_ad_personalization_signals: false});
+</script>
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>Intelligence for the AI frontier | Friday Intelligence</title>
   <meta name="description" content="Friday Intelligence drives positive economic outcomes for companies, investors, and governments on AI and emerging technologies.">
